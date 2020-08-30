@@ -1,6 +1,6 @@
 # Graph operations using Networkx
 
-## Packages needed to be installed before running the code:
+#### Packages needed to be installed before running the code:
 •	Numpy
 •	Networkx
 •	Scipy
