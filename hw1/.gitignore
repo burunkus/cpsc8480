@@ -1,3 +1,5 @@
 # ignore pdf and docx files
 *.pdf
 *.docx
+*.DS_Store
+mycielskian14.mtx
