@@ -18,19 +18,19 @@ The name of the python code is graphs.py. let us assume that the name of the mat
   - e.g. ```python graphs.py test.mtx```
   
 - To add a node attribute. Specify the node, the node attribute name or key, the node attribute value and a --node flag. 
-  - e.g. To add a node 10, attribute ‘time’, attribute value ‘3.2’ do:
+  - e.g. To add a node 10, attribute ‘time’, attribute value ‘3.2’ do:\
     ```python graphs.py test.mtx 10 time 3.2 --node```
   
 - To add node attribute and view nodes after addition add the --viewnodes flag:
-  - e.g. ```python graphs.py test.mtx 10 time 3.2 time --node --viewnodes```
+  - e.g. ```python graphs.py test.mtx 10 time 3.2 time --node --viewnodes```\
     Note: the last ‘time’ specifies that you want to view nodes with the ‘time’ attribute. 
   
 - To add an edge attribute. Specify the edge (u and v), the edge attribute name or key, the edge attribute value and a --edge flag.
-  - e.g. To add an edge (10 and 11), attribute ‘weight’, attribute value ‘2’ do:
+  - e.g. To add an edge (10 and 11), attribute ‘weight’, attribute value ‘2’ do:\
   ```python graphs.py test.mtx 10 11 weight 2 --edge```
   
 - To add edge attribute and view the edge attribute value just added add the --viewedge flag:
-  - e.g. ```python graphs.py test.mtx 10 11 weight 2 weight --edge --viewedge```
+  - e.g. ```python graphs.py test.mtx 10 11 weight 2 weight --edge --viewedge```\
     Note: The last ‘weight’ specifies that you want to view the edge attribute value of the edge attribute name ‘weight’, of the edge (10, 11). Which should output   2. This can be useful if you want to confirm that the attribute was added.
   
 - To only add a node attribute and an edge attribute , add the --node and --edge flags.
