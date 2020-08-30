@@ -1,1 +1,1 @@
-# cpsc8480
+# cpsc8480 - Network Science
