@@ -41,9 +41,6 @@ The name of the python code is graphs.py. let us assume that the name of the mat
 
     This will add 10 as a node, set it’s attribute name/key to ‘time’ and set the value of the attribute name/key to 3.2 and displays nodes which have attribute  name/key ‘time’. Similary, it will add the edge 10 and 11, set it’s attribute name/key to ‘weight’, set the attribute value of the attribute name/key to 2 and display the value of the just added edge attribute which is 2. 
 
-### Visualization
-To show that this code works, I plotted a graph with 4k nodes using this code on palmetto. I also noticed that pygraphviz had trouble plotting huge graphs like 10k. Below is an image of a 4k node. This was generated with the command:
-
 ### Example 
 ```
 python graphs.py test.mtx
