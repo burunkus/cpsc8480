@@ -19,12 +19,12 @@ There are two directed graphs files of format matrix market format included in t
 The name of the python code is page_rank.py. To run the code:
 - To run the code till the rank converges, do:
   - python page_rank.py <filename.mxt>
-  - E.g. python page_rank.py pesa.mtx 
-  - Or python page_rank.py cage10.mtx
+  - E.g. ```python page_rank.py pesa.mtx```
+  - Or ```python page_rank.py cage10.mtx```
 
 - To run the code for a specific number of iteration, do:
   - python page_rank.py <filename.mtx> <number of iteration> <--num>
-  - E.g. python page_rank.py pesa.mtx 20 --num
-  - Or python page_rank.py case10.mtx 50 --num
+  - E.g. ```python page_rank.py pesa.mtx 20 --num```
+  - Or ```python page_rank.py case10.mtx 50 --num```
 
 Download [sparse graph](https://sparse.tamu.edu/)
