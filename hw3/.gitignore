@@ -1,0 +1,4 @@
+# ignore pdf and docx files
+*.pdf
+*.docx
+*.DS_Store
