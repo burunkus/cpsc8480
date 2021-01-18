@@ -28,10 +28,10 @@ From the citation datasets various co-citation network datasets were created:
 *	cocitation-92-00.txt
 *	cocitation-92-02.txt
 
-Centrality measures are applied to the datasets to get the top ranked papers. Since the papers are ids, [paper details](https://github.com/burunkus/cpsc8480/blob/master/project/paper_details.py) and [paper name](https://github.com/burunkus/cpsc8480/blob/master/project/paper_name.py) is used to the details and title of
+Centrality measures are applied to the datasets to get the top ranked papers. Since the papers are represented as ids, [paper details](https://github.com/burunkus/cpsc8480/blob/master/project/paper_details.py) and [paper name](https://github.com/burunkus/cpsc8480/blob/master/project/paper_name.py) is used to the details and title of
 the papers. 
 
-Note: running this code takes incredible amount of time because of the computation of different centrality measures especially those based on shortest path (betweenness and closeness). 
+Note: running [co-citation.py](https://github.com/burunkus/cpsc8480/blob/master/project/co-citation.py) code takes incredible amount of time because of the computation of different centrality measures especially those based on shortest path (betweenness and closeness). 
 
 This program was tested using Python3.7.
 
