@@ -1,0 +1,4 @@
+# Ignore all pdfs and png files
+*.pdf
+*.docx
+*.DS_Store

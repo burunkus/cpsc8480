@@ -12,6 +12,7 @@ import networkx as nx
 from collections import Counter
 import numpy as np
 
+
 def construct_graph(matrix):
     """
     Creates a graph from a numpy ndarray
@@ -59,13 +60,12 @@ def plot_degree_distribution_histogram(graph):
     # Count the number of vertices having same degree
     degree_count = Counter(all_degrees)
     degrees, counts = zip(*degree_count.items())
-    #degree_distributions = [degree / num_of_nodes for degree in degrees]
     
-    plt.hist(degrees, density=True)
+    plt.hist(degrees, bins=20, density=True)
     plt.ylabel("Fraction of vertices with degree k")
     plt.xlabel("Degree k")
     plt.savefig("degree_distribution_histogram.png")
-
+    
 
 def plot_cumm_degree_distribution_function(graph):
     """
@@ -93,8 +93,6 @@ def plot_cumm_degree_distribution_function(graph):
     plt.ylabel("Fraction of vertices pk having degree k or greater")
     fig.savefig("degree_distribution_function.png")
     
-    
-
 
 def compute_power_law_parameters(graph):
     """
@@ -123,13 +121,15 @@ def compute_power_law_parameters(graph):
         
 
 def main():
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("datalist", nargs="+", type=str, help="input arguments")
     args = parser.parse_args()
     input_array = args.datalist
     assert input_array[0].endswith('.mtx'), "File must be a .mtx file."
     file_name = input_array[0]
-    
+    """
+    file_name = "as-22july06.mtx"
     _, graph = process_file(file_name)
     plot_degree_distribution_histogram(graph)
     plot_cumm_degree_distribution_function(graph)
