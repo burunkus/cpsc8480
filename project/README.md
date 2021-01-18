@@ -2,11 +2,11 @@
 Applies centrality metrics - Betweenness, Closness, Degree and PageRank to research paper ranking
 
 #### Prerequisites:
-•	Numpy
-•	Networkx
-•	Scipy
-•	matplotlib
-. feedparser
+*	Numpy
+*	Networkx
+*	Scipy
+*	matplotlib
+* feedparser
 
 Folder contains the two datasets downloaded from [SNAP](https://snap.stanford.edu/):
 *	cit-HepPh-dates.txt
@@ -14,18 +14,18 @@ Folder contains the two datasets downloaded from [SNAP](https://snap.stanford.ed
 To learn more about this citation network dataset visit the dataset [link](https://snap.stanford.edu/data/cit-HepPh.html)
 
 from these datasets various citation networks are created according to the data in cit-HepPh-dates.txt:
-•	92-94.txt
-•	92-96.txt
-•	92-98.txt
-•	92-20.txt
-•	92-02.txt
+*	92-94.txt
+*	92-96.txt
+*	92-98.txt
+*	92-20.txt
+*	92-02.txt
 
 From the citation datasets various co-citation network datasets were created:
-•	cocitation-92-94.txt
-•	cocitation-92-96.txt
-•	cocitation-92-98.txt
-•	cocitation-92-00.txt
-•	cocitation-92-02.txt
+*	cocitation-92-94.txt
+*	cocitation-92-96.txt
+*	cocitation-92-98.txt
+*	cocitation-92-00.txt
+*	cocitation-92-02.txt
 
 Centrality measures are applied to the datasets to get the top ranked papers. Since the papers are ids, [paper details](https://github.com/burunkus/cpsc8480/blob/master/project/paper_details.py) and [paper name](https://github.com/burunkus/cpsc8480/blob/master/project/paper_name.py) is used to the details and title of
 the papers. 
