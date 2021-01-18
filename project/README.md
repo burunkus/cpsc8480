@@ -1,7 +1,7 @@
 # Applying Centrality Measures for Ranking Papers in Cocitation Networks
 Applies centrality metrics - Betweenness, Closness, Degree and PageRank to research paper ranking
 
-#### Packages needed to be installed before running the code:
+#### Prerequisites:
 •	Numpy
 •	Networkx
 •	Scipy
@@ -9,8 +9,8 @@ Applies centrality metrics - Betweenness, Closness, Degree and PageRank to resea
 . feedparser
 
 Folder contains the two datasets downloaded from [SNAP](https://snap.stanford.edu/):
-•	cit-HepPh-dates.txt
-•	cit-HepPh.txt
+*	cit-HepPh-dates.txt
+*	cit-HepPh.txt
 To learn more about this citation network dataset visit the dataset [link](https://snap.stanford.edu/data/cit-HepPh.html)
 
 from these datasets various citation networks are created according to the data in cit-HepPh-dates.txt:
