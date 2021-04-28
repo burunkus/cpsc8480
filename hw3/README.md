@@ -28,3 +28,7 @@ The name of the python code is page_rank.py. To run the code:
   - Or ```python page_rank.py case10.mtx 50 --num```
 
 Download [sparse graph](https://sparse.tamu.edu/)
+
+Todo:
+- Emits same vector
+- format output
